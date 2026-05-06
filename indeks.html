@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Book Ku | Satelit Edukasi 🛰️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Partikel Bintang (Dekorasi) -->
+    <div class="stars"></div>
+
+    <!-- Navigasi -->
+    <nav>
+        <div class="logo">🛰️ <span>E-Book Ku</span></div>
+        <ul>
+            <li><a href="#" onclick="showPage('home')">🏠 Home</a></li>
+            <li><a href="#" onclick="showPage('about')">🚀 About</a></li>
+            <li><a href="#" onclick="showPage('produk')">📚 Produk</a></li>
+            <li><a href="#" onclick="showPage('kontak')">📞 Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Halaman Home -->
+    <section id="home" class="page active">
+        <div class="hero">
+            <div class="floating-emoji">🪐</div>
+            <h1>selamat datang di toko ebook kami</h1>
+            <p class="subtitle">kami menjual e-book untuk kamu disini</p>
+            
+            <div class="glass-card main-intro">
+                <h2>🛰️ Judul Website: E-Book Ku</h2>
+                <p><b>E-Book Ku</b> hadir sebagai solusi inovatif di tengah pesatnya perkembangan teknologi untuk mempermudah para pemula dalam menguasai berbagai disiplin ilmu. Kami menyadari bahwa langkah pertama seringkali menjadi yang tersulit; itulah alasan kami merancang e-book dengan pendekatan yang sangat sistematis namun tetap ringan. Deskripsi materi kami fokus pada penyederhanaan konsep-konsep berat menjadi poin-poin yang mudah diingat, sehingga setiap pembaca dapat mencapai potensi maksimal mereka dengan cara yang lebih profesional dan terarah.</p>
+            </div>
+            <div class="floating-emoji-right">🛰️</div>
+        </div>
+    </section>
+
+    <!-- Halaman About -->
+    <section id="about" class="page">
+        <div class="container">
+            <h2 class="title-page">👨‍🚀 Tentang Kami</h2>
+            <div class="grid-about">
+                <div class="glass-card">
+                    <h3>📍 Nama Usaha: E-Book Ku</h3>
+                    <p><b>Latar Belakang:</b> Di era digital saat ini, kebutuhan akan media pembelajaran yang praktis, mudah diakses, dan efisien semakin meningkat. Banyak pelajar yang merasa kesulitan memahami materi dari buku yang terlalu panjang dan kurang ringkas. Selain itu, keterbatasan waktu belajar juga menjadi kendala dalam memahami pelajaran secara mendalam.</p>
+                    <p>Melihat hal tersebut, e-book hadir sebagai solusi pembelajaran yang lebih fleksibel dan efektif. Dengan penyajian materi yang ringkas, jelas, dan mudah dipahami, e-book diharapkan dapat membantu pelajar dalam memahami berbagai mata pelajaran seperti informatika, ekonomi, dan sosiologi dengan lebih cepat dan menyenangkan.</p>
+                </div>
+                <div class="glass-card">
+                    <h3>🌟 Visi & Misi</h3>
+                    <p><b>Visi:</b> Menjadi media pembelajaran digital yang praktis, mudah dipahami, dan bermanfaat bagi pelajar dalam meningkatkan pemahaman materi pelajaran.</p>
+                    <hr>
+                    <p><b>Misi:</b></p>
+                    <ul>
+                        <li>✨ Menyediakan materi pembelajaran dalam bentuk ringkasan yang jelas dan mudah dipahami</li>
+                        <li>🎯 Membantu pelajar belajar secara mandiri dengan lebih efektif</li>
+                        <li>🔥 Menyajikan konten yang relevan dengan kebutuhan pelajar masa kini</li>
+                        <li>🛰️ Memanfaatkan teknologi digital sebagai sarana pembelajaran yang fleksibel</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Halaman Produk -->
+    <section id="produk" class="page">
+        <div class="container">
+            <h2 class="title-page">🔭 Katalog Produk Digital</h2>
+            
+            <!-- Produk 1: Informatika -->
+            <div class="product-item glass-card">
+                <div class="image-box">
+                    <img src="WhatsApp Image 2026-05-06 at 20.31.56 (2).jpeg" alt="Ebook Informatika">
+                </div>
+                <div class="product-desc">
+                    <h3>💻 Rangkuman Informatika Dasar</h3>
+                    <p>“E-book ini berisi rangkuman materi informatika yang disusun secara singkat, jelas, dan mudah dipahami. Cocok untuk kamu yang ingin belajar tanpa ribet dan langsung ke inti pembahasan. Di dalamnya membahas: pengertian dasar informatika, sistem komputer (hardware, software, brainware), dasar-dasar coding, dan pengenalan HTML sederhana. Semua materi dirangkum dengan bahasa yang ringan sehingga mudah dipahami oleh pemula. Yuk, mulai pahami informatika dengan cara yang lebih mudah dan menyenangkan. Dapatkan e-book ini sekarang!”</p>
+                    <div class="buy-section">
+                        <span class="price">💰 Rp 45.000/pcs</span>
+                        <button class="cart-btn" onclick="openOrder('Informatika Dasar')">🛒 Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produk 2: Ekonomi -->
+            <div class="product-item glass-card">
+                <div class="image-box">
+                    <img src="WhatsApp Image 2026-05-06 at 20.31.56.jpeg" alt="Ebook Ekonomi">
+                </div>
+                <div class="product-desc">
+                    <h3>📊 Rangkuman Ekonomi Kelas 11</h3>
+                    <p>“E-book ini berisi rangkuman materi ekonomi kelas 11 yang disusun secara sistematis dan mudah dipahami. Di dalamnya membahas: kebutuhan dan kelangkaan, kegiatan ekonomi, permintaan dan penawaran, serta konsep dasar ekonomi lainnya. Cocok untuk membantu kamu memahami materi dengan cepat tanpa harus membaca buku yang panjang. Belajar ekonomi jadi lebih ringan dan efektif. Yuk, dapatkan e-book ini sekarang!”</p>
+                    <div class="buy-section">
+                        <span class="price">💰 Rp 40.000/pcs</span>
+                        <button class="cart-btn" onclick="openOrder('Ekonomi Kelas 11')">🛒 Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produk 3: Sosiologi -->
+            <div class="product-item glass-card">
+                <div class="image-box">
+                    <img src="WhatsApp Image 2026-05-06 at 20.31.56 (1).jpeg" alt="Ebook Sosiologi">
+                </div>
+                <div class="product-desc">
+                    <h3>🤝 Rangkuman Sosiologi Kelas 11</h3>
+                    <p>“E-book ini menyajikan rangkuman materi sosiologi kelas 11 dengan penjelasan yang sederhana dan mudah dimengerti. Di dalamnya membahas: interaksi sosial, kelompok sosial, norma dan nilai sosial, serta dinamika kehidupan masyarakat. Materi disusun agar lebih mudah dipahami dan tidak membingungkan. Belajar sosiologi jadi lebih seru dan tidak membosankan. Ayo miliki e-book ini sekarang!”</p>
+                    <div class="buy-section">
+                        <span class="price">💰 Rp 40.000/pcs</span>
+                        <button class="cart-btn" onclick="openOrder('Sosiologi Kelas 11')">🛒 Keranjang</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Halaman Kontak -->
+    <section id="kontak" class="page">
+        <div class="container">
+            <h2 class="title-page">🛸 Form Pemesanan</h2>
+            <div class="glass-card form-container">
+                <form id="orderForm">
+                    <div class="input-group">
+                        <label>👤 Nama Lengkap</label>
+                        <input type="text" id="name" placeholder="Masukkan nama kamu..." required>
+                    </div>
+                    <div class="input-group">
+                        <label>📧 Email</label>
+                        <input type="email" id="email" placeholder="nama@email.com" required>
+                    </div>
+                    <div class="input-group">
+                        <label>📦 Nama Pesanan</label>
+                        <input type="text" id="order_name" readonly>
+                    </div>
+                    <button type="submit" class="btn-submit">Pesan Sekarang ✨</button>
+                </form>
+
+                <!-- Halaman Hasil / Response -->
+                <div id="response" class="response-box">
+                    <div class="success-icon">✅</div>
+                    <h3>Pemesanan Berhasil!</h3>
+                    <div id="resultData"></div>
+                    <p class="thanks-note">terimakasih sudah memesan produk kami, semoga puas dengan e-book kami</p>
+                    <button onclick="showPage('home')" class="btn-back">Kembali ke Home</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
